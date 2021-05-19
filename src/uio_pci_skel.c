@@ -112,7 +112,7 @@ static void uio_pci_skel_remove(struct pci_dev *pdev)
 	pci_disable_device(pdev);
 }
 
-static struct pci_device_id uio_pci_skel_tbl[] = {
+static const struct pci_device_id uio_pci_skel_tbl[] = {
 	{ PCI_DEVICE_DATA(UIO_SKEL, PCI_DEV01, 0) },
 	{ 0, }
 };
