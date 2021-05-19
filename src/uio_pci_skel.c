@@ -1,12 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include <linux/device.h>
 #include <linux/module.h>
 #include <linux/pci.h>
-#include <linux/slab.h>
 #include <linux/uio_driver.h>
-
-#include <asm/io.h>
 
 MODULE_AUTHOR("Jorge Maidana <jorgem.seq@gmail.com>");
 MODULE_DESCRIPTION("UIO PCI Skeleton Driver");
