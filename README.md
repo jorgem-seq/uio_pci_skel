@@ -1,3 +1,5 @@
+> This repository has been moved to [**GitLab**](https://gitlab.com/jorgem-dev/uio_pci_skel)
+
 ## UIO PCI Skeleton Driver for Linux 4.19+
 
 ### Loading the module
